@@ -21,12 +21,5 @@ This project is a simple dashboard page designed to display various files and th
 ## Requirements
 - A modern web browser that supports HTML5, CSS3, and JavaScript.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-For any questions or feedback, please contact:
-- **Email**: [graphberry@gmail.com](mailto:graphberry@gmail.com)
-
 ## Links
 - [Demo](#)
