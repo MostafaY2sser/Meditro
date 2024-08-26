@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+
+    <!-- File CSS  -->
+    <link rel="stylesheet" href="css/master.css" />
+
+    <!-- Framework -->
+    <link rel="stylesheet" href="css/frameworh.css" />
+
+    <!-- FontAwesome  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- Google  Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Oswald:wght@200..700&family=Tac+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative mt-0 txt-c">Mostafa</h3>
+        <ul>
+          <li>
+            <a
+              class="d-flex alinge-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashbourd</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex alinge-center fs-14 c-black rad-6 p-10"
+              href="settings.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex alinge-center fs-14 c-black rad-6 p-10"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex alinge-center fs-14 c-black rad-6 p-10"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex alinge-center fs-14 c-black rad-6 p-10"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex alinge-center fs-14 c-black rad-6 p-10"
+              href="friends.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex alinge-center fs-14 c-black rad-6 p-10"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex alinge-center fs-14 c-black rad-6 p-10"
+              href="plans.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content w-full">
+        <!-- Start Header ______________________________________________ -->
+        <div class="head bg-white between-flex">
+          <div class="search">
+            <i class="icon fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="search" />
+          </div>
+          <div class="icons">
+            <span class="notification">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="images/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- End Header ______________________________________________ -->
+
+        <!-- Main Title _________________ -->
+        <h1 class="main-title">Settings</h1>
+
+        <!-- Start  Page  Setting  ----------------------------------------------- -->
+        <div class="settings-page">
+          <!-- Start  Site Control  -->
+          <div class="site-control">
+            <h3>Site Control</h3>
+            <p class="p-one">Control The Website If There Is Maintenance</p>
+            <p class="p-two">Website Control</p>
+            <p class="p-three">Open/Close Website And Type The Reaso</p>
+            <textarea
+              class="massage"
+              placeholder="Close  Massage Content"
+            ></textarea>
+          </div>
+          <!-- End  Site Control  -->
+
+          <!-- Start  General Info -->
+          <div class="general-info">
+            <h3>General Info</h3>
+            <p>General Information About Your Account</p>
+            <form action="">
+              <label for="">First Name</label>
+              <input class="first-name" type="text" placeholder="First Name" />
+              <label for="">Last Name</label>
+              <input class="last-name" type="text" placeholder="Last Name" />
+              <label for="">Email</label>
+              <input class="email" type="email" placeholder="o@nn.sa" />
+              <a href="#">Change</a>
+            </form>
+          </div>
+          <!-- End  General Info -->
+
+          <!-- Start  Security Info -->
+          <div class="security-info">
+            <h3>Security Info</h3>
+            <p class="p-one">Security Information About Your Account</p>
+            <div class="row one">
+              <div class="text">
+                <p>Password</p>
+                <span>Last Change On 25/10/2021</span>
+              </div>
+              <a href="#">Change</a>
+            </div>
+            <div class="row">
+              <p>Two-Factor Authentication</p>
+              <span>Enable/Disable The Feature</span>
+            </div>
+            <div class="row three">
+              <div class="text">
+                <p>Devices</p>
+                <span>Check The Login Devices List</span>
+              </div>
+              <a href="#">Devices</a>
+            </div>
+          </div>
+          <!-- End  Security Info -->
+
+          <!-- Start  Social Info -->
+          <div class="social-info">
+            <h3>Social Info</h3>
+            <p>Social Media Information</p>
+            <div class="social">
+              <i class="icon fa-brands fa-twitter fa-1x"></i>
+              <input type="email" placeholder="Twitter  Username" />
+            </div>
+            <div class="social">
+              <i class="icon fa-brands fa-facebook-f fa-1x"></i>
+              <input type="email" placeholder="Facebook  Username" />
+            </div>
+            <div class="social">
+              <i class="icon fa-brands fa-linkedin fa-1x"></i>
+              <input type="email" placeholder="Linkedin  Username" />
+            </div>
+            <div class="social">
+              <i class="icon fa-brands fa-youtube fa-1x"></i>
+              <input type="email" placeholder="Youtube  Username" />
+            </div>
+          </div>
+          <!-- End  Social Info -->
+
+          <!-- Start  Widgets Control -->
+          <div class="widgets-control">
+            <h3>Widgets Control</h3>
+            <p>Show/Hide Widgets</p>
+            <div class="cotrol">
+              <input type="checkbox" id="one" checked />
+              <label for="one">Quick Draft</label>
+            </div>
+            <div class="cotrol">
+              <input type="checkbox" id="one" checked />
+              <label for="one">Yearly Targets</label>
+            </div>
+            <div class="cotrol">
+              <input type="checkbox" id="one" checked />
+              <label for="one">Tickets Statistics</label>
+            </div>
+            <div class="cotrol">
+              <input type="checkbox" id="one" />
+              <label for="one">Latest News</label>
+            </div>
+            <div class="cotrol">
+              <input type="checkbox" id="one" />
+              <label for="one">Latest Tasks</label>
+            </div>
+            <div class="cotrol">
+              <input type="checkbox" id="one" />
+              <label for="one">Top Search Items</label>
+            </div>
+          </div>
+          <!-- End  Widgets Control -->
+
+          <!-- Start Backup Manager -->
+          <div class="backup-manager">
+            <h3>Backup Manager</h3>
+            <p>Control Backup Time And Location</p>
+            <div class="row">
+              <input type="radio" id="one" checked />
+              <label for="one">Daily</label>
+            </div>
+            <div class="row">
+              <input type="radio" id="one" />
+              <label for="one">Weekly</label>
+            </div>
+            <div class="row">
+              <input type="radio" id="one" />
+              <label for="one">Monthly</label>
+            </div>
+            <div class="servers">
+              <div class="row">
+                <i class="icon fa-solid fa-server"></i>
+                <div class="text">Megaman</div>
+              </div>
+              <div class="row two">
+                <i class="icon fa-solid fa-server"></i>
+                <div class="text">Zero</div>
+              </div>
+              <div class="row">
+                <i class="icon fa-solid fa-server"></i>
+                <div class="text">Sigma</div>
+              </div>
+            </div>
+          </div>
+          <!-- End Backup Manager -->
+        </div>
+        <!-- End  Page  Setting  ----------------------------------------------- -->
+      </div>
+    </div>
+
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
