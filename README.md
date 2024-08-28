@@ -11,7 +11,7 @@ This project is a simple dashboard page designed to display various files and th
 
 ## Technologies Used
 - **HTML**: For the page structure.
-- **CSS**: For styling (referenced files include `master.css`, `framework.css`, `all.min.css`, `normalize.css`).
+- **CSS**: For styling (referenced files include `master.css`, `framework.css`, `all.min.css`, `normalize.css`)
 - **JavaScript**: For additional functionality (referenced file: `all.min.js`).
 
 ## Setup
